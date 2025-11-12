@@ -3,8 +3,9 @@ Title: Data Summarization by Group
 Version: 0.0.0.9000
 Authors@R: 
     person("Joy", "Yu", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: The goal of datasummary is to summary data by group. The function in it will calculate the number of rows, numeric columns' mean value and categorical columns' number of unique values for each group.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+Imports: dplyr, magrittr, rlang, tidyr
